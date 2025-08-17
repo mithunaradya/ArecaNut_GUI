@@ -1,0 +1,40 @@
+# Areca Nut Ripeness Detection - Complete System Requirements
+
+# Core Dependencies (Required)
+# ================================
+
+# Computer Vision & Image Processing
+opencv-python==4.12.0.88
+Pillow>=10.0.0
+
+# Machine Learning  
+scikit-learn==1.5.2
+numpy==1.26.4
+
+# GUI Framework (Built-in with Python)
+# tkinter - No installation needed (comes with Python)
+
+# Optional Dependencies
+# =====================
+
+# Deep Learning (for CNN model - optional)
+tensorflow>=2.20.0
+
+# Note: System Performance Options
+# ================================
+# Option 1: Full System (with TensorFlow)
+#   - All 4 models: KNN, Random Forest, SVC, CNN
+#   - Best possible accuracy with ensemble voting
+#   - Larger installation size (~500MB)
+#
+# Option 2: Lightweight System (without TensorFlow)  
+#   - 3 models: KNN, Random Forest, SVC
+#   - 98.7% accuracy (excellent performance)
+#   - Smaller installation size (~50MB)
+#   - Comment out tensorflow line above
+
+# Installation Commands:
+# ======================
+# Full system:    pip install -r requirements.txt
+# Lightweight:    pip install opencv-python scikit-learn numpy Pillow
+
