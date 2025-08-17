@@ -108,18 +108,13 @@ Project/
 pip install -r requirements.txt
 ```
 
-### 2. Test the System
+### 2. Test the System for command line
 ```bash
 python 03_Scripts/test_single_image.py
 ```
-
-### 3. Train Models (if needed)
+### 3. For GUI Run
 ```bash
-# Fix Random Forest compatibility
-python 03_Scripts/fix_random_forest.py
-
-# Improve Random Forest with enhanced features
-python 03_Scripts/improve_random_forest.py
+python Areca.py
 ```
 
 ---
@@ -160,7 +155,7 @@ python 03_Scripts/improve_random_forest.py
 ## 📈 Technical Specifications
 
 - **Programming Language**: Python 3.12
-- **Key Libraries**: OpenCV, scikit-learn, NumPy
+- **Key Libraries**: OpenCV, scikit-learn, NumPy, TensorFlow
 - **Image Processing**: Computer vision techniques
 - **Model Training**: Supervised learning with 375 samples
 - **Performance**: Sub-second inference time
@@ -187,5 +182,5 @@ For technical questions or implementation support, refer to:
 ---
 
 **Project Status**: ✅ Complete and functional
-**Last Updated**: January 2025
+**Last Updated**: August 2025
 **Version**: 1.0
