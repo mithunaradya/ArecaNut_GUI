@@ -23,6 +23,7 @@ Project/
 ├── README.md                    # This file - project overview
 ├── requirements.txt             # Python dependencies
 ├── single.png                   # Sample test image
+├── Areca.py                     # GUI For Ripeness Detection
 │
 ├── 01_Dataset/                  # Training and test data
 │   ├── train/                   # Training images
